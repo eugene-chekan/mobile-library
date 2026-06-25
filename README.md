@@ -9,6 +9,14 @@ An Android app for managing a personal library of books and magazines, built wit
 - Switch between list and grid view
 - Persistent local storage with Room database
 
+## Screenshots
+
+![main screen dark](static/main-screen-dark.png)
+
+![new-item-dark.png](static/new-item-dark.png)
+
+![item-view-dark.png](static/item-view-dark.png)
+
 ## Tech Stack
 
 - **Language:** Kotlin
