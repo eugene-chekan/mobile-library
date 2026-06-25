@@ -1,0 +1,20 @@
+package com.course.app
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import com.course.app.navigation.AppNavigation
+import com.course.app.ui.theme.LibraryTheme
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            LibraryTheme {
+                AppNavigation()
+            }
+        }
+    }
+}

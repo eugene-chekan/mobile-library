@@ -1,0 +1,21 @@
+# Build outputs
+build/
+app/build/
+
+# Gradle cache
+.gradle/
+
+# IDE files
+.idea/
+
+# Claude Code
+.claude/
+
+# Local configuration (contains SDK path, not for repo)
+local.properties
+app/local.properties
+
+# Excluded project directories
+docs/
+examples/
+modules/
